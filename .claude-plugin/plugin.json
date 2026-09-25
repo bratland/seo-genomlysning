@@ -3,10 +3,10 @@
   "version": "1.0.0",
   "description": "Komplett SEO- och GEO-genomlysning av en domän på svenska: teknisk crawl, on-page, AI-synlighet, sökord, lokal SEO och mätning, levererad som ett dokument med prioriterad åtgärdslista — och arbetet i repot för att genomföra den.",
   "author": {
-    "name": "Anders Bratland",
+    "name": "Raion AB",
     "url": "https://andersbratland.se"
   },
   "homepage": "https://github.com/bratland/plugins",
-  "license": "UNLICENSED",
+  "license": "SEE LICENSE IN LICENSE",
   "keywords": ["seo", "geo", "ai-synlighet", "llms-txt", "schema-org", "search-console", "ga4", "sverige"]
 }

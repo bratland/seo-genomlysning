@@ -31,6 +31,17 @@ Skillen ställer fyra frågor innan arbetet börjar — syfte, omfång, vilka da
 | Åtgärdslista | Sorterad efter effekt per nedlagd timme |
 | Genomförande | Arbetet i sajtens repo, om åtgärderna ska byggas och inte bara beskrivas |
 
+## Vad som behövs
+
+Skillen kommer igång utan någon koppling. Search Console och GA4 gör
+genomlysningen säkrare men är valfria — se [CONNECTORS.md](CONNECTORS.md).
+
+## Licens
+
+Fri att använda i eget arbete och i uppdrag åt kunder, och fri att ändra och
+sprida vidare. Att sälja själva skillen kräver godkännande. Hela texten i
+[LICENSE](LICENSE).
+
 ## Principer
 
 - Mätt och uppskattat hålls isär, i varsin kolumn.
