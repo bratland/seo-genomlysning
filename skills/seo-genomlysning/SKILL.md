@@ -24,7 +24,14 @@ Använd AskUserQuestion innan något arbete börjar. Flagga aldrig en lucka i en
 
 ## Steg 1 — Inventera vad som redan finns
 
-Innan nya verktyg föreslås, ta reda på vad som redan är på plats. Fråga efter det du inte kan se, och leta efter resten:
+**Börja med att avgöra vad du kan nå.** Har du ett skal och en ansluten mapp
+gäller listan nedan. Har du varken eller, vilket är normalfallet i
+skrivbordsappen utan ansluten mapp, hoppa rakt till steg 3: genomlysningen körs
+på publik data och blir fullgod ändå. Säg i så fall en rad om vad som utelämnas,
+och fortsätt. Stanna aldrig upp och be om ett skal.
+
+Med tillgång: innan nya verktyg föreslås, ta reda på vad som redan är på plats.
+Fråga efter det du inte kan se, och leta efter resten:
 
 - Befintliga skills: `ls ~/.claude/skills`
 - Analysverktyg på maskinen: `which gcloud lighthouse`, och sparade OAuth-credentials under `~/.config/`
@@ -36,6 +43,11 @@ SearchSkills och SearchMcpRegistry för SEO-konnektorer. Semrush, Ahrefs och Ope
 Rapportera vad som fanns och vad som saknades. En befintlig GA4-åtkomst är värd mer än en ny konnektor.
 
 ## Steg 2 — Skapa dokumentskelettet
+
+Välj format efter vad som finns: ett dokument om verktyget för det är
+tillgängligt, annars en artefakt eller en markdownfil. Frågan ställdes i steg 0,
+men svaret kan peka på något som saknas: välj då närmaste tillgängliga och säg
+vilket det blev.
 
 Om leveransen är ett Claude Doc: skapa skelettet som turens första verktygsanrop, öppna det, och fyll sedan en sektion per anrop. Sektioner:
 
@@ -82,7 +94,10 @@ Avsluta med rimlig förväntan i veckor eller månader, och vilka mätpunkter so
 
 ## Genomförande i repot
 
-Gäller när åtgärderna ska byggas och inte bara beskrivas.
+Gäller när sajtens kodbas är åtkomlig och åtgärderna ska byggas, inte bara
+beskrivas. Saknas den är åtgärdslistan i steg 7 hela leveransen, och den är
+skriven för att kunna lämnas vidare till den som förvaltar sajten. Avsnittet
+nedan hoppas då över utan kommentar.
 
 **Redigera generatorn, aldrig resultatet.** Har sajten ett byggskript skrivs varje `.html` över vid nästa körning. Hitta generatorn först (`scripts/build*.mjs`, `package.json`, en SSG-konfig) och gör ändringen där. En rättning i en genererad fil är borta innan någon hinner deploya den.
 
